@@ -1,0 +1,21 @@
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Error in parse_block(g[-1], g[1], params.src, markdown_mode) : 
+  Duplicate chunk label 'pl-scatter-qc-comb-mito', which has been used for the chunk:
+QC_Plot_UMIvsGene(
+  seurat_object = combined_srt,
+  meta_gradient_name = "percent_mito",
+  low_cutoff_gene = low_cutoff_gene,
+  high_cutoff_gene = high_cutoff_gene,
+  low_cutoff_UMI = low_cutoff_umis,
+  high_cutoff_UMI = high_cutoff_umis,
+  meta_gradient_low_cutoff = high_cutoff_pc_mt,
+  meta_gradient_color = combined_srt@misc$mdat_Colour_Pal,
+  combination = TRUE,
+  color_seed = reseed,
+  ggplot_default_colors = TRUE,
+  pt.size = 3,
+  shuffle_seed = reseed
+) &
+  scale_x_log10() & scale_y_log10()
