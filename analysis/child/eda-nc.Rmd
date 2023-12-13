@@ -273,7 +273,7 @@ Split_FeatureScatter(
   colors_use = combined_srt@misc$qc_Colour_Pal,
   split.by = "orig.ident",
   group.by = "QC",
-  num_columns = if_else(
+  num_columns = ifelse(
     length(unique(combined_srt$orig.ident)) >= 3,
     3,
     length(unique(combined_srt$orig.ident))
@@ -697,7 +697,7 @@ combined_srt <- combined_srt %>%
 plot_clustree(
   labelmat = combined_srt@meta.data,
   prefix = "RNA_snn_res.",
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.ref = FALSE,
   layout = "sugiyama",
   use_core_edges = FALSE
@@ -759,7 +759,7 @@ out <- mrtree(
 
 plot_tree(
   labelmat = out$labelmat.mrtree,
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.piechart = TRUE,
   node.size = 0.2,
   tip.label.dist = 10,
@@ -1539,7 +1539,7 @@ out <- mrtree(
 
 plot_tree(
   labelmat = out$labelmat.mrtree,
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.piechart = TRUE,
   node.size = 0.2,
   tip.label.dist = 10,
@@ -2228,15 +2228,6 @@ SaveH5Seurat(
     data_dir,
     sprintf("%s-whole_dataset-nc-clusters.h5Seurat", bioproject)
   ),
-  overwrite = TRUE
-)
-
-Convert(
-  here(
-    data_dir,
-    sprintf("%s-whole_dataset-nc-clusters.h5Seurat", bioproject)
-  ),
-  dest = "h5ad",
   overwrite = TRUE
 )
 ```

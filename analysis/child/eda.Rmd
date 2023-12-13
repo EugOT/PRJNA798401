@@ -800,7 +800,7 @@ combined_srt <- combined_srt %>%
 plot_clustree(
   labelmat = combined_srt@meta.data,
   prefix = "RNA_snn_res.",
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.ref = FALSE,
   layout = "sugiyama",
   use_core_edges = FALSE
@@ -864,7 +864,7 @@ out <- mrtree(
 
 plot_tree(
   labelmat = out$labelmat.mrtree,
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.piechart = TRUE,
   node.size = 0.2,
   tip.label.dist = 10,
@@ -1688,7 +1688,7 @@ out <- mrtree(
 
 plot_tree(
   labelmat = out$labelmat.mrtree,
-  ref.labels = ref_labels,
+  ref.labels = if (n_unique(ref_labels) != 1) ref_labels else combined_srt$seurat_clusters,
   plot.piechart = TRUE,
   node.size = 0.2,
   tip.label.dist = 10,
@@ -2407,15 +2407,6 @@ SaveH5Seurat(
     data_dir,
     sprintf("%s-whole_dataset-fpr_%s-clusters.h5Seurat", bioproject, cb_fpr)
   ),
-  overwrite = TRUE
-)
-
-Convert(
-  here(
-    data_dir,
-    sprintf("%s-whole_dataset-fpr_%s-clusters.h5Seurat", bioproject, cb_fpr)
-  ),
-  dest = "h5ad",
   overwrite = TRUE
 )
 ```

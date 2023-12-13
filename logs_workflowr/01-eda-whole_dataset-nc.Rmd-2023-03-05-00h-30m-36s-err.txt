@@ -1,0 +1,62 @@
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+  |                                                                              |                                                                      |   0%  |                                                                              |====                                                                  |   6%  |                                                                              |=========                                                             |  12%  |                                                                              |=============                                                         |  19%  |                                                                              |==================                                                    |  25%  |                                                                              |======================                                                |  31%  |                                                                              |==========================                                            |  38%  |                                                                              |===============================                                       |  44%  |                                                                              |===================================                                   |  50%  |                                                                              |=======================================                               |  56%  |                                                                              |============================================                          |  62%  |                                                                              |================================================                      |  69%  |                                                                              |====================================================                  |  75%  |                                                                              |=========================================================             |  81%  |                                                                              |=============================================================         |  88%  |                                                                              |==================================================================    |  94%  |                                                                              |======================================================================| 100%
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Loading .Rprofile for the current workflowr project
+This is workflowr version 1.7.0
+Run ?workflowr for help getting started
+Error in unserialize(node$con) : 
+  MultisessionFuture (future_lapply-2) failed to receive results from cluster RichSOCKnode #2 (PID 27006 on localhost 'localhost'). The reason reported was 'error reading from connection'. Post-mortem diagnostic: No process exists with this PID, i.e. the localhost worker is no longer alive. The total size of the 13 globals exported is 6.76 GiB. The three largest globals are 'object' (6.76 GiB of class 'S4'), '...future.FUN' (63.70 KiB of class 'function') and 'norm.function' (33.90 KiB of class 'function')
+In addition: Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1

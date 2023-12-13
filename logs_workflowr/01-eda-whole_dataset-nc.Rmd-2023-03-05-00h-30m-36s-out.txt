@@ -1,0 +1,39 @@
+  |                                   |                           |   0%  |                                   |..                         |   8%                                             |                                   |....                       |  15% (seed-set-by-workflowr)                     |                                   |......                     |  23%                                             |                                   |........                   |  31% (setup)                                     |                                   |..........                 |  38%                                             |                                   |............               |  46% (params)                                  [1] "Start: 2023-03-05 00:30:48"
+[1] "Stop: 2023-03-05 00:30:48"
+Time difference of 0.02439022 secs
+  |                                   |...............            |  54%                                             |                                   |.................          |  62% (parent-chunk-name)                       [1] "Start: 2023-03-05 00:30:48"
+[1] "Stop: 2023-03-05 00:30:48"
+Time difference of 0.006351471 secs
+  |                                   |...................        |  69%                                             |                                 |                         |   0%  |                                 |                         |   1%                                              (load)                                      [1] "Start: 2023-03-05 00:30:48"
+[1] "Stop: 2023-03-05 00:38:13"
+Time difference of 7.418239 mins
+  |                                 |                         |   2%                                               |                                 |.                        |   2% (pl-vln-qc)                                 [1] "Start: 2023-03-05 00:38:13"
+[1] "Stop: 2023-03-05 00:39:21"
+Time difference of 1.124919 mins
+  |                                 |.                        |   3%                                               |                                 |.                        |   4% (pl-scatter-qc)                             [1] "Start: 2023-03-05 00:39:21"
+[1] "Stop: 2023-03-05 00:39:33"
+Time difference of 12.41958 secs
+                                               |                                 |.                        |   5% (pl-scatter-qc-comb-mito)                   [1] "Start: 2023-03-05 00:39:33"
+[1] "Stop: 2023-03-05 00:39:37"
+Time difference of 3.885364 secs
+                                               |                                 |.                        |   6% (pl-scatter-qc-comb-ribo)                   [1] "Start: 2023-03-05 00:39:37"
+[1] "Stop: 2023-03-05 00:39:42"
+Time difference of 4.528029 secs
+  |                                 |..                       |   7%                                              (pl-scatter-qc-comb-complexity)             [1] "Start: 2023-03-05 00:39:42"
+[1] "Stop: 2023-03-05 00:39:46"
+Time difference of 3.891808 secs
+  |                                 |..                       |   8%                                              (pl-scatter-doublets-log-prob)              [1] "Start: 2023-03-05 00:39:46"
+[1] "Stop: 2023-03-05 00:40:07"
+Time difference of 21.15793 secs
+  |                                 |..                       |   9%                                               |                                 |..                       |  10% (pl-scatter-qc-comb-doublets)               [1] "Start: 2023-03-05 00:40:07"
+[1] "Stop: 2023-03-05 00:40:11"
+Time difference of 4.091316 secs
+  |                                 |...                      |  10%                                               |                                 |...                      |  11% (unnamed-chunk-1)                           [1] "Start: 2023-03-05 00:40:11"
+[1] "Stop: 2023-03-05 00:40:12"
+Time difference of 0.9172442 secs
+                                               |                                 |...                      |  12% (pl-scatter-doublets-log-prob-qc-categories)[1] "Start: 2023-03-05 00:40:12"
+[1] "Stop: 2023-03-05 00:40:46"
+Time difference of 34.73578 secs
+  |                                 |...                      |  13%                                              (pl-init-dr-hvg)                            [1] "Start: 2023-03-05 00:40:46"
+                                                                                                                                       
+                                                                                                                                     

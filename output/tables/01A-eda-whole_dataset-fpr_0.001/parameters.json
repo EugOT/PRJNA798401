@@ -1,0 +1,58 @@
+[
+  {
+    "Parameter": ["high_cutoff_umis"],
+    "Value": [40000],
+    "Description": ["Maximum threshold for total counts"]
+  },
+  {
+    "Parameter": ["low_cutoff_gene"],
+    "Value": [500],
+    "Description": ["Minimum threshold for total features"]
+  },
+  {
+    "Parameter": ["high_cutoff_gene"],
+    "Value": [7500],
+    "Description": ["Maximum threshold for total features"]
+  },
+  {
+    "Parameter": ["high_cutoff_pc_mt"],
+    "Value": [25],
+    "Description": ["Maximum threshold for percentage counts mitochondrial"]
+  },
+  {
+    "Parameter": ["high_cutoff_pc_ribo"],
+    "Value": [20],
+    "Description": ["Maximum threshold for percentage counts ribosomal"]
+  },
+  {
+    "Parameter": ["high_cutoff_pc_hb"],
+    "Value": [0.1],
+    "Description": ["Maximum threshold for percentage counts hemoglobin"]
+  },
+  {
+    "Parameter": ["high_cutoff_complexity"],
+    "Value": [0.85],
+    "Description": ["Maximum threshold for cells complexity"]
+  },
+  {
+    "Parameter": ["n_cells"],
+    "Value": [70693],
+    "Description": ["Number of cells in the filtered dataset"]
+  },
+  {
+    "Parameter": ["n_genes"],
+    "Value": [24771],
+    "Description": ["Number of genes in the filtered dataset"]
+  },
+  {
+    "Parameter": ["median_genes"],
+    "Value": [2250],
+    "Description": ["Median number of expressed genes per cell in the filtered dataset"]
+  },
+  {
+    "Parameter": ["median_counts"],
+    "Value": [4413],
+    "Description": ["Median number of counts per cell in the filtered dataset"]
+  },
+  ["n_cells-SRR17655997", "15635", "Number of cells in the filtered SRR17655997 dataset", "n_cells-SRR17656000", "11222", "Number of cells in the filtered SRR17656000 dataset", "n_cells-SRR17656004", "11738", "Number of cells in the filtered SRR17656004 dataset", "n_cells-SRR17656006", "10303", "Number of cells in the filtered SRR17656006 dataset", "n_cells-SRR17656011", "11828", "Number of cells in the filtered SRR17656011 dataset", "n_cells-SRR17656012", "9967", "Number of cells in the filtered SRR17656012 dataset"]
+]
